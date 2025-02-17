@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Go fund me!</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Fundaising progress bar</h1>
+        <p><strong>Goal: 5000$</strong></p>
+        <div class="outer-circle" id="circle">
+            <div class="inner-circle">
+                <p class="progress"><span id="percent">0</span>%</p>
+                
+            </div>
+        </div>
+        <p><strong>current amount: $<span id="amount">0</span></strong></p>
+        <div class="input-data">
+            <input type="number" id="fund">
+            <button id="add">Add</button>
+        </div>
+    </div>
+   <script src="script.js"></script> 
+</body>
+</html>

@@ -20,7 +20,7 @@ addfund.addEventListener("click",() =>{
     if(isNaN(fund) || fund <= 0){
         alert("Invalid fund")
     }else if(fund + currentValue > goal){
-        alert(`found must less than or equal to ${goal - currentValue}$`)
+        alert(`fund must be less than or equal to ${goal - currentValue}$`)
     }else{
         currentValue = Math.min(currentValue + fund, goal)
         alert("Thanks for your donation.")
